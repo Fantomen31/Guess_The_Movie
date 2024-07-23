@@ -52,3 +52,16 @@ function displayMovies() {
 
     console.log('Movies displayed:', movie1.title, 'vs', movie2.title);
 }
+
+function enableMovieCards() {
+    document.getElementById('movie1').classList.remove('disabled');
+    document.getElementById('movie2').classList.remove('disabled');
+}
+
+function disableMovieCards() {
+    document.getElementById('movie1').classList.add('disabled');
+    document.getElementById('movie2').classList.add('disabled');
+}
+
+console.log('Functions to enable and disable movie cards added');
+
