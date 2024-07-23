@@ -10,3 +10,14 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+}
+
+header h1, footer p {
+    margin: 0;
+}
