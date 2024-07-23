@@ -90,3 +90,12 @@ function guess(movieNumber) {
 
     console.log('Guess processed');
 }
+
+function nextRound() {
+    if (rounds < 10) {
+        displayMovies();
+    }
+
+    console.log('Next round started');
+}
+
