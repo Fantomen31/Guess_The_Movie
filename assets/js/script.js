@@ -1,3 +1,5 @@
+console.log('Script loaded');
+
 const movies = [
     { title: "The Shawshank Redemption", rating: 9.3, image: "assets/images/shawshank.jpg" },
     { title: "The Godfather", rating: 9.2, image: "assets/images/godfather.jpg" },
