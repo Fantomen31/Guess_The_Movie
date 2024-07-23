@@ -16,3 +16,11 @@ if (title === 'Cinephile') {
 }
 
 console.log('Score and title displayed');
+
+function restartGame() {
+    localStorage.removeItem('score');
+    localStorage.removeItem('title');
+    window.location.href = 'index.html';
+
+    console.log('Game restarted');
+}
