@@ -25,6 +25,7 @@ header h1, footer p {
 #score-result {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 button {

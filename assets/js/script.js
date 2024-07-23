@@ -121,6 +121,3 @@ function showScore() {
 displayMovies();
 
 console.log('Initial movies displayed');
-
-
-
