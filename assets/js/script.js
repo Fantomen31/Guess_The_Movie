@@ -65,3 +65,28 @@ function disableMovieCards() {
 
 console.log('Functions to enable and disable movie cards added');
 
+function guess(movieNumber) {
+    if (rounds >= 10) return; // Freeze game after 10 rounds
+
+    console.log('Guess button clicked for movie', movieNumber);
+    const guessedMovie = movieNumber === 1 ? movie1 : movie2;
+    const otherMovie = movieNumber === 1 ? movie2 : movie1;
+
+    if (guessedMovie.rating >= otherMovie.rating) {
+        document.getElementById('result').innerText = 'Correct! ' + guessedMovie.title + ' has a rating of ' + guessedMovie.rating;
+        score++;
+    } else {
+        document.getElementById('result').innerText = 'Wrong! ' + guessedMovie.title + ' has a rating of ' + guessedMovie.rating + ', but ' + otherMovie.title + ' has a rating of ' + otherMovie.rating;
+    }
+    rounds++;
+    document.getElementById('rounds').innerText = rounds;
+    document.getElementById('next').style.display = 'block';
+    disableMovieCards();
+
+    if (rounds >= 10) {
+        document.getElementById('next').innerText = 'Show Score';
+        document.getElementById('next').onclick = showScore;
+    }
+
+    console.log('Guess processed');
+}
