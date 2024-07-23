@@ -35,3 +35,20 @@ function getRandomMovie() {
 }
 
 console.log('Random movie function added');
+
+function displayMovies() {
+    movie1 = getRandomMovie();
+    movie2 = getRandomMovie();
+    while (movie1 === movie2) {
+        movie2 = getRandomMovie();
+    }
+    document.getElementById('title1').innerText = movie1.title;
+    document.getElementById('image1').src = movie1.image;
+    document.getElementById('title2').innerText = movie2.title;
+    document.getElementById('image2').src = movie2.image;
+    document.getElementById('result').innerText = '';
+    document.getElementById('next').style.display = 'none';
+    enableMovieCards();
+
+    console.log('Movies displayed:', movie1.title, 'vs', movie2.title);
+}
