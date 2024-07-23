@@ -118,4 +118,9 @@ function showScore() {
     console.log('Score shown and game ended');
 }
 
+displayMovies();
+
+console.log('Initial movies displayed');
+
+
 
