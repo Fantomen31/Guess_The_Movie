@@ -21,3 +21,22 @@ header, footer {
 header h1, footer p {
     margin: 0;
 }
+
+#score-result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: yellow; /* Add yellow background for Play Again button */
+    color: black;
+    font-weight: bold;
+    border: 2px solid black; /* Add black border to button */
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
