@@ -7,7 +7,7 @@ const movies = [
     { title: "12 Angry Men", rating: 9.0, image: "assets/images/12_angry_men.jpg" },
     { title: "Schindler's List", rating: 8.9, image: "assets/images/schindler.jpg" },
     { title: "Pulp Fiction", rating: 8.9, image: "assets/images/pulp_fiction.jpg" },
-    { title: "The Lord of the Rings: The Return of the King", rating: 8.9, image: "assets/images/lotr.jpg" },
+    { title: "LOTR: The Return Of The King", rating: 8.9, image: "assets/images/lotr.jpg" },
     { title: "The Good, the Bad and the Ugly", rating: 8.8, image: "assets/images/good_bad_ugly.jpg" },
     { title: "Fight Club", rating: 8.8, image: "assets/images/fight_club.jpg" },
     { title: "Forrest Gump", rating: 8.8, image: "assets/images/forrest_gump.jpg" },
