@@ -22,3 +22,10 @@ const movies = [
     { title: "Saving Private Ryan", rating: 8.6, image: "assets/images/saving_private_ryan.jpg" },
     { title: "Spirited Away", rating: 8.6, image: "assets/images/spirited_away.jpg" }
 ];
+
+let movie1, movie2;
+let score = 0;
+let rounds = 0;
+
+console.log('Initial game variables set');
+
