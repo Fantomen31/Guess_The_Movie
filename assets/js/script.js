@@ -29,3 +29,9 @@ let rounds = 0;
 
 console.log('Initial game variables set');
 
+function getRandomMovie() {
+    const index = Math.floor(Math.random() * movies.length);
+    return movies[index];
+}
+
+console.log('Random movie function added');
