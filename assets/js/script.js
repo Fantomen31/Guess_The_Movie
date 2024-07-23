@@ -99,3 +99,23 @@ function nextRound() {
     console.log('Next round started');
 }
 
+function showScore() {
+    let title = '';
+    if (score === 10) {
+        title = 'Cinephile';
+    } else if (score >= 7) {
+        title = 'Movie Buff';
+    } else if (score >= 5) {
+        title = 'Movie Fan';
+    } else {
+        title = 'Normie';
+    }
+
+    localStorage.setItem('score', score);
+    localStorage.setItem('title', title);
+    window.location.href = 'score.html';
+
+    console.log('Score shown and game ended');
+}
+
+
