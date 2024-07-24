@@ -1,3 +1,4 @@
+// Array of movie objects with title, rating, and image properties
 const movies = [
     { title: "The Shawshank Redemption", rating: 9.3, image: "assets/images/shawshank.jpg" },
     { title: "The Godfather", rating: 9.2, image: "assets/images/godfather.jpg" },
@@ -21,15 +22,18 @@ const movies = [
     { title: "Spirited Away", rating: 8.6, image: "assets/images/spirited_away.jpg" }
 ];
 
+// Variables to store the selected movies and the game score
 let movie1, movie2;
 let score = 0;
 let rounds = 0;
 
+// Function to get a random movie from the movies array
 function getRandomMovie() {
     const index = Math.floor(Math.random() * movies.length);
     return movies[index];
 }
 
+// Function to display two random movies on the screen
 function displayMovies() {
     movie1 = getRandomMovie();
     movie2 = getRandomMovie();
@@ -43,19 +47,21 @@ function displayMovies() {
     document.getElementById('result').innerText = '';
     document.getElementById('next').style.display = 'none';
     enableMovieCards();
-
 }
 
+// Function to enable movie cards for user interaction
 function enableMovieCards() {
     document.getElementById('movie1').classList.remove('disabled');
     document.getElementById('movie2').classList.remove('disabled');
 }
 
+// Function to disable movie cards to prevent further interaction
 function disableMovieCards() {
     document.getElementById('movie1').classList.add('disabled');
     document.getElementById('movie2').classList.add('disabled');
 }
 
+// Function to handle the user's guess
 function guess(movieNumber) {
     if (rounds >= 10) return; // Freeze game after 10 rounds
 
@@ -77,16 +83,16 @@ function guess(movieNumber) {
         document.getElementById('next').innerText = 'Show Score';
         document.getElementById('next').onclick = showScore;
     }
-
 }
 
+// Function to start the next round
 function nextRound() {
     if (rounds < 10) {
         displayMovies();
     }
-
 }
 
+// Function to show the final score and title
 function showScore() {
     let title = '';
     if (score === 10) {
@@ -102,8 +108,7 @@ function showScore() {
     localStorage.setItem('score', score);
     localStorage.setItem('title', title);
     window.location.href = 'score.html';
-
 }
 
+// Initial display of movies when the game starts
 displayMovies();
-
