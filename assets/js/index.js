@@ -3,7 +3,7 @@ const movies = [
     { title: "The Shawshank Redemption", rating: 9.3, image: "assets/images/shawshank.jpg" },
     { title: "The Godfather", rating: 9.2, image: "assets/images/godfather.jpg" },
     { title: "The Dark Knight", rating: 9.0, image: "assets/images/dark_knight.jpg" },
-    { title: "12 Angry Men", rating: 9.0, image: "assets/images/twelve_angry_men.jpg" },
+    { title: "12 Angry Men", rating: 9.0, image: "assets/images/12_angry_men.jpg" },
     { title: "Schindler's List", rating: 8.9, image: "assets/images/schindler.jpg" },
     { title: "Pulp Fiction", rating: 8.9, image: "assets/images/pulp_fiction.jpg" },
     { title: "LOTR: The Return Of The King", rating: 8.9, image: "assets/images/lotr.jpg" },
