@@ -150,7 +150,7 @@ Same with score.js file, it’s part of an onlick. If I had the time I'd change 
 
 - Move inline styling from HTML to CSS file.
 
-- Rename images assets, "kebab" ("-") names, instead of "_".
+- Rename images assets, "kebab" ("-") names, instead of "_". (!OBS) Could not commit to this change.
 
 - Remove console.logs().
 
