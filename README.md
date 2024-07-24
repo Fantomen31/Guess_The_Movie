@@ -49,17 +49,19 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 
 ## Testing
 
+- Lighthouse Dev Tools
+
 Testing in Lighthouse returned undesirable results.
-![Alt text](ReadMe.images/first-score.png)
-![Alt text](ReadMe.images/viewport-fail.png)
+![Alt text](assets/ReadMe.images/first-score.png)
+![Alt text](assets/ReadMe.images/viewport-fail.png)
 
 As we can see there was no viewport code. After I added the initial viewport structure I got the following score.
 
-![Alt text](ReadMe.images/second-score.png)
+![Alt text](assets//ReadMe.images/second-score.png)
 
 And then I added the media queries as well as changed the font size and got the following score.
 
-![Alt text](ReadMe.images/third-score.png)
+![Alt text](assets/ReadMe.images/third-score.png)
 
 
 
