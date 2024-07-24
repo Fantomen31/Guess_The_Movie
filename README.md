@@ -10,16 +10,16 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 
 ### Display two random movies for each round.
 ### Allow users to guess which movie has a higher rating.
-![Alt text](assets/ReadMe.images/display-movies.png)
+![Alt text](assets/readme.images/display-movies.png)
 
 ### Track score and rounds played.
-![Alt text](assets/ReadMe.images/round-counter.png)
+![Alt text](assets/readme.images/round-counter.png)
 
 ### Show a "Next Round" button after each guess.
-![Alt text](assets/ReadMe.images/next-round.png)
+![Alt text](assets/readme.images/next-round.png)
 
 ### Display the final score and title based on the user's performance.
-![Alt text](assets/ReadMe.images/score-and-titel.png)
+![Alt text](assets/readme.images/score-and-titel.png)
 
 ### Titles: 
   - Cinephile (10/10)
@@ -64,16 +64,16 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 
 ### Testing in Lighthouse returned undesirable results.
 
-![Alt text](assets/ReadMe.images/first-score.png)
-![Alt text](assets/ReadMe.images/viewport-fail.png)
+![Alt text](assets/readme.images/first-score.png)
+![Alt text](assets/readme.images/viewport-fail.png)
 
 ### As we can see there was no viewport code. After I added the initial viewport structure I got the following score.
 
-![Alt text](assets//ReadMe.images/second-score.png)
+![Alt text](assets//readme.images/second-score.png)
 
 ### And then I added the media queries as well as changed the font size and got the following score.
 
-![Alt text](assets/ReadMe.images/third-score.png)
+![Alt text](assets/readme.images/third-score.png)
 
 - HTML 
    - No bugs, only img src errors in HTML code, but using them in a function in JS instead to make the game functionable.
