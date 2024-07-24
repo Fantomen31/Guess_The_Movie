@@ -31,10 +31,10 @@ header h1, footer p {
 button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: yellow; /* Add yellow background for Play Again button */
+    background-color: yellow; 
     color: black;
     font-weight: bold;
-    border: 2px solid black; /* Add black border to button */
+    border: 2px solid black; 
     cursor: pointer;
 }
 
