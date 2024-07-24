@@ -112,13 +112,15 @@ button:hover {
 }
 
 #next {
-    display: block;
+    display: none; /* Initially hidden */
 }
 
 #score-board {
     margin-top: auto;
     padding: 20px;
     font-size: 16px; 
+    font-weight: bold;
+    color: black;
 }
 
 footer {
