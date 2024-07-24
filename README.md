@@ -114,7 +114,11 @@ Press Enter to have the local clone created.
    - No bugs. But two "unused variables" for function 'guess' & 'nextRound'. 
 
 ## BUGS
-- 
+
+- I noticed that I could just press the same movie over and over without it changing unless I pressed Next Round. So I figured out a way to freeze the guessing buttons, enabling only the Next Round button to continue the game, making the movie-card slightly translucent to indicate that it is out of access.
+
+![Frozen guess buttons](assets/readme.images/frozen-guess.png)
+
 
 ## Known-issues
 
