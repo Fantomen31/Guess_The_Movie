@@ -1,5 +1,7 @@
 # Movie Rating Game
 
+![Alt text](assets/ReadMe.images/Responsiveness.png)
+
 ## Overview
 
 Welcome to the Movie Rating Game! This game challenges you to guess which of two movies has a higher IMDb rating. You'll play 10 rounds, each featuring two different movies. Your goal is to guess correctly as many times as possible to achieve a high score and earn a title based on your performance.
@@ -64,6 +66,12 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 
 ![Alt text](assets/ReadMe.images/third-score.png)
 
+- HTML 
+   - No bugs, only img src errors in HTML code, but using them in a function in JS instead to make the game functionable.
+- CSS
+   - No bugs, and no errors.
+- JS
+   - No bugs, but warnings about ES6-version. Since I don't know what that 
 
 
 
