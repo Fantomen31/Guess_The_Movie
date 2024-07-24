@@ -25,11 +25,8 @@ let movie1, movie2;
 let score = 0;
 let rounds = 0;
 
-console.log('Initial game variables set');
-
 function getRandomMovie() {
     const index = Math.floor(Math.random() * movies.length);
-    console.log('Random movie index generated:', index);
     return movies[index];
 }
 
@@ -37,7 +34,6 @@ function displayMovies() {
     movie1 = getRandomMovie();
     movie2 = getRandomMovie();
     while (movie1 === movie2) {
-        console.log('Duplicate movie found, selecting a new movie');
         movie2 = getRandomMovie();
     }
     document.getElementById('title1').innerText = movie1.title;
@@ -48,7 +44,6 @@ function displayMovies() {
     document.getElementById('next').style.display = 'none';
     enableMovieCards();
 
-    console.log('Movies displayed:', movie1.title, 'vs', movie2.title);
 }
 
 function enableMovieCards() {
@@ -61,12 +56,9 @@ function disableMovieCards() {
     document.getElementById('movie2').classList.add('disabled');
 }
 
-console.log('Functions to enable and disable movie cards added');
-
 function guess(movieNumber) {
     if (rounds >= 10) return; // Freeze game after 10 rounds
 
-    console.log('Guess button clicked for movie', movieNumber);
     const guessedMovie = movieNumber === 1 ? movie1 : movie2;
     const otherMovie = movieNumber === 1 ? movie2 : movie1;
 
@@ -86,7 +78,6 @@ function guess(movieNumber) {
         document.getElementById('next').onclick = showScore;
     }
 
-    console.log('Guess processed');
 }
 
 function nextRound() {
@@ -94,7 +85,6 @@ function nextRound() {
         displayMovies();
     }
 
-    console.log('Next round started');
 }
 
 function showScore() {
@@ -113,9 +103,7 @@ function showScore() {
     localStorage.setItem('title', title);
     window.location.href = 'score.html';
 
-    console.log('Score shown and game ended');
 }
 
 displayMovies();
 
-console.log('Initial movies displayed');

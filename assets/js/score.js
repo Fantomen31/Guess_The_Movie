@@ -1,5 +1,3 @@
-console.log('Score script loaded');
-
 document.getElementById('final-score').innerText = localStorage.getItem('score');
 document.getElementById('final-title').innerText = localStorage.getItem('title');
 
@@ -15,12 +13,9 @@ if (title === 'Cinephile') {
     document.getElementById('final-title').style.color = 'lightgreen';
 }
 
-console.log('Score and title displayed');
-
 function restartGame() {
     localStorage.removeItem('score');
     localStorage.removeItem('title');
     window.location.href = 'index.html';
 
-    console.log('Game restarted');
 }
