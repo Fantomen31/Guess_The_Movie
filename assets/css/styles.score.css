@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 header, footer {
@@ -21,26 +21,66 @@ header, footer {
 
 header h1, footer p {
     margin: 0;
-    font-size: 18px; 
+    font-size: 18px; /* Ensure legible font size */
 }
 
 #score-result {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px; /* Add margin-bottom to move button up */
 }
 
 button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: yellow; 
+    background-color: yellow; /* Add yellow background for Play Again button */
     color: black;
     font-weight: bold;
-    border: 2px solid black; 
+    border: 2px solid black; /* Add black border to button */
     cursor: pointer;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 button:hover {
     opacity: 0.8;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1, footer p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #score-result {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+
+    header h1, footer p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    #score-result {
+        font-size: 12px;
+    }
 }
