@@ -84,6 +84,11 @@ Press Enter to have the local clone created.
 
 ## Testing
 
+- Tested the game in dev tools to chec kresponsiveness and made changes accordingly.
+- Confirmed that the score works correctly, along with titels and that the game runs without bugs.
+- Confirmed that the text, header, footer and instructions are easily legible and understood by sharing with friends.
+- Confirmed that the fonts and colors were easily legible by running it through dev tools.
+
 - Lighthouse Dev Tools
 
 ### Testing in Lighthouse returned undesirable results.
@@ -99,6 +104,8 @@ Press Enter to have the local clone created.
 
 ![Alt text](assets/readme.images/third-score.png)
 
+### Changed the color from Blue + Red, to a Lightblue + Lightred per dev tools.
+
 - HTML 
    - No bugs, only img src errors in HTML code, but using them in a function in JS instead to make the game functionable.
 - CSS
@@ -106,15 +113,43 @@ Press Enter to have the local clone created.
 - JS
    - No bugs. But two "unused variables" for function 'guess' & 'nextRound'. 
 
+## BUGS
+- 
+
 ## Known-issues
 
-- These are actually used but as events in the HTML code. If I had the time I'd like to change them both to EventListeners in the JS file instead. Validated JS, had two "unused variables", 'guess'(line 68 in script.js) and 'nextRound', (line 94 in script.js), are being called within html on (line 22, 23 & 26). 
-Same with score.js file, it’s part of an onlick. And if I had the time I'd like to change it to event listeners.
-
-
+- These are actually used but as events in the HTML code. Validated JS, had two "unused variables", 'guess'(line 68 in script.js) and 'nextRound', (line 94 in script.js), are being called within html on (line 22, 23 & 26). 
+Same with score.js file, it’s part of an onlick. If I had the time I'd change them to eventlisteners within the JS-files.
    ![nextRound function code](assets/readme.images/next-round-onclick.png)
    ![Guess function code](assets/readme.images/guess.png)
 
+- When viewed on the phone, some images scale outside the movie.card divs, because of the movie titels becoming to long and pushing them out, but doesn't hidner the logic or the bug the game.
+
+   ![Example 1](assets/readme.images/example-one.png)
+   ![Example 2](assets/readme.images/example-two.png)
+
+
+## Changes after Mentor Meet
+
+- Renamed javascript and css files. From "script.js = index.js", "styles.css = index.css", "styles.score.css = score.css"
+
+- Add structure comments to css. 
+
+- Add structure comments to JS.
+
+- Add structure comments to HTML.
+
+- Move inline styling from HTML to CSS file.
+
+- Rename images assets, "kebab" ("-") names, instead of "_".
+
+- Remove console.logs().
+
+- Screenshots for features.
+
+- Change ”setup” to ”deployment”.
+
+- Add known issues to TESTING.
 
 
 
