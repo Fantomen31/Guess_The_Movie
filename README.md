@@ -1,6 +1,6 @@
 # Movie Rating Game
 
-![Alt text](assets/readme.images/Responsiveness.png)
+![Alt text](assets/readme.images/responsiveness.png)
 
 ## Overview
 
