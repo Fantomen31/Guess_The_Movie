@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-size: 16px; /* Ensure legible font size */
+    font-size: 16px; 
 }
 
 header, footer {
@@ -18,7 +18,7 @@ header, footer {
 
 header h1, footer p {
     margin: 0;
-    font-size: 18px; /* Ensure legible font size */
+    font-size: 18px; 
 }
 
 .container {
@@ -28,7 +28,7 @@ header h1, footer p {
 
 #instructions {
     margin: 20px 0;
-    font-size: 16px; /* Ensure legible font size */
+    font-size: 16px; 
 }
 
 #game-area {
@@ -57,15 +57,15 @@ header h1, footer p {
     align-items: center;
     justify-content: center;
     border: 2px solid black;
-    margin: 10px; /* Add margin for better spacing */
+    margin: 10px; 
 }
 
 .red-card {
-    background-color: red;
+    background-color: #FFCCCC;
 }
 
 .blue-card {
-    background-color: blue;
+    background-color: #CCE5FF;
 }
 
 .movie-card img {
@@ -93,7 +93,7 @@ button {
     font-weight: bold;
     border: 2px solid black;
     cursor: pointer;
-    font-size: 16px; /* Ensure legible font size */
+    font-size: 16px; 
 }
 
 button:hover {
@@ -102,7 +102,7 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 16px; /* Ensure legible font size */
+    font-size: 16px; 
 }
 
 .button-container {
@@ -118,7 +118,7 @@ button:hover {
 #score-board {
     margin-top: auto;
     padding: 20px;
-    font-size: 16px; /* Ensure legible font size */
+    font-size: 16px; 
 }
 
 footer {
