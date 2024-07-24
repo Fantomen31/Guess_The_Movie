@@ -119,6 +119,11 @@ Press Enter to have the local clone created.
 
 ![Frozen guess buttons](assets/readme.images/frozen-guess.png)
 
+## UNFIXED-BUGS
+
+- The renameing proccess didn't work and the image pathwasy couldn't find eachother after I changed names to "skewer kebab" style naming. So I switched it back. Next time I'll start with correct naming style.
+
+![Naming bug shown in dev tools](assets/readme.images/name-bug.png.png)
 
 ## Known-issues
 
