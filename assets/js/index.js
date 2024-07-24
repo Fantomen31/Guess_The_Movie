@@ -14,10 +14,10 @@ const movies = [
     { title: "Goodfellas", rating: 8.7, image: "assets/images/goodfellas.jpg" },
     { title: "The Empire Strikes Back", rating: 8.7, image: "assets/images/empire-strikes-back.jpg" },
     { title: "One Flew Over the Cuckoo's Nest", rating: 8.7, image: "assets/images/one-flew-over.jpg" },
-    { title: "Se7en", rating: 8.6, image: "assets/images/se7en.jpg" },
+    { title: "Se7en", rating: 8.6, image: "assets/images/seven.jpg" },
     { title: "The Silence of the Lambs", rating: 8.6, image: "assets/images/silence-of-the-lambs.jpg" },
     { title: "It's a Wonderful Life", rating: 8.6, image: "assets/images/wonderful-life.jpg" },
-    { title: "Saving Private Ryan", rating: 8.6, image: "assets/images/saving_private_ryan.jpg" },
+    { title: "Saving Private Ryan", rating: 8.6, image: "assets/images/saving-private-ryan.jpg" },
     { title: "Spirited Away", rating: 8.6, image: "assets/images/spirited-away.jpg" }
 ];
 
