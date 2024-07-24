@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -10,6 +11,7 @@ body {
     font-size: 16px; 
 }
 
+/* Header and Footer Styles */
 header, footer {
     background-color: #333;
     color: white;
@@ -21,16 +23,19 @@ header h1, footer p {
     font-size: 18px; 
 }
 
+/* Container Styles */
 .container {
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Instructions Section */
 #instructions {
     margin: 20px 0;
     font-size: 16px; 
 }
 
+/* Game Area */
 #game-area {
     padding: 20px;
     flex: 1;
@@ -43,6 +48,7 @@ header h1, footer p {
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
+/* Movie Card Styles */
 .movie-card {
     background-color: white;
     padding: 20px;
@@ -85,6 +91,7 @@ header h1, footer p {
     opacity: 0.6;
 }
 
+/* Button Styles */
 button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -100,21 +107,25 @@ button:hover {
     opacity: 0.8;
 }
 
+/* Result Section */
 #result {
     margin-top: 20px;
     font-size: 16px; 
 }
 
+/* Button Container */
 .button-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
+/* Next Button */
 #next {
     display: none; /* Initially hidden */
 }
 
+/* Scoreboard */
 #score-board {
     margin-top: auto;
     padding: 20px;
@@ -123,6 +134,7 @@ button:hover {
     color: black;
 }
 
+/* Footer Styles */
 footer {
     position: fixed;
     width: 100%;
@@ -131,6 +143,7 @@ footer {
 
 /* Media Queries for Responsiveness */
 
+/* Medium screens (max-width: 600px) */
 @media (max-width: 600px) {
     body {
         font-size: 14px;
@@ -164,6 +177,7 @@ footer {
     }
 }
 
+/* Small screens (max-width: 400px) */
 @media (max-width: 400px) {
     body {
         font-size: 12px;
