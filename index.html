@@ -7,38 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <h1>Guess the Higher Rated Movie</h1>
     </header>
 
+    <!-- Instructions Section -->
     <section id="instructions">
         <p>Welcome to the game! You will be presented with two movies. Your task is to guess which movie has the higher IMDB rating. You have 10 rounds to play. Good luck!</p>
     </section>
 
+    <!-- Game Area Section -->
     <section id="game-area">
         <div id="movies">
+            <!-- Movie Card 1 -->
             <div class="movie-card red-card" id="movie1" onclick="guess(1)">
                 <img id="image1" alt="Movie Image 1">
                 <h2 id="title1">Movie Title 1</h2>
             </div>
+            <!-- Movie Card 2 -->
             <div class="movie-card blue-card" id="movie2" onclick="guess(2)">
                 <img id="image2" alt="Movie Image 2">
                 <h2 id="title2">Movie Title 2</h2>
             </div>
         </div>
+        <!-- Result Display -->
         <div id="result"></div>
+        <!-- Next Round Button -->
         <div class="button-container">
             <button id="next" onclick="nextRound()">Next Round</button>
         </div>
+        <!-- Score Board -->
         <div id="score-board">
             <p>Rounds: <span id="rounds">0</span>/10</p>
         </div>
     </section>
 
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Movie Rating Game. All rights reserved.</p>
     </footer>
 
+    <!-- JavaScript -->
     <script src="assets/js/index.js"></script>
 </body>
 </html>
