@@ -27,7 +27,6 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
   - Movie Fan (5-6/10)
   - Normie (0-4/10)
 
-### Responsive design for various screen sizes.
 
 ## Technologies Used
 
@@ -53,10 +52,35 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 - `assets/js/score-script.js`: JavaScript file containing the score page logic.
 - `assets/images/`: Directory containing movie images.
 
-## Setup
+## Deployment
+Github
 
-1. Clone the repository to your local machine.
-2. Open `index.html` in your web browser to start the game.
+This project is deployed using GitHub pages using the following process,
+
+Deploying a GitHub Repository via GitHub Pages
+
+In your Repository section, select the Repository you wish to deploy.
+In the top horizontal Menu, locate and click the Settings link.
+Inside the Setting page, around halfway down locate the GitHub Pages Section.
+Under Source, select the None tab and change it to Main and click Save.
+Finally once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
+
+Forking the Github Repository
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
+
+Find the GitHub repository.
+At the top of the page to the right, under your account, click the Fork button.
+You will now have a copy of the repository in your GitHub account.
+
+Making a Local Clone
+
+Find the GitHub Repository.
+Click the Code button
+Copy the link shown.
+In Gitpod, change the directory to the location you would like the cloned directory to be located.
+Type git clone, and paste the link you copied in step 3.
+Press Enter to have the local clone created.
 
 ## Testing
 
@@ -80,7 +104,19 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 - CSS
    - No bugs, and no errors.
 - JS
-   - No bugs, but warnings about ES6-version. Since I don't know what that 
+   - No bugs. But two "unused variables" for function 'guess' & 'nextRound'. 
+
+## Known-issues
+
+- These are actually used but as events in the HTML code. If I had the time I'd like to change them both to EventListeners in the JS file instead. Validated JS, had two "unused variables", 'guess'(line 68 in script.js) and 'nextRound', (line 94 in script.js), are being called within html on (line 22, 23 & 26). 
+Same with score.js file, it’s part of an onlick. And if I had the time I'd like to change it to event listeners.
+
+
+   ![nextRound function code](assets/readme.images/next-round-onclick.png)
+   ![Guess function code](assets/readme.images/guess.png)
+
+
+
 
 
 
