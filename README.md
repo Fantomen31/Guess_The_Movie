@@ -8,17 +8,26 @@ Welcome to the Movie Rating Game! This game challenges you to guess which of two
 
 ## Features
 
-- Display two random movies for each round.
-- Allow users to guess which movie has a higher rating.
-- Track score and rounds played.
-- Show a "Next Round" button after each guess.
-- Display the final score and title based on the user's performance.
-- Titles: 
+### Display two random movies for each round.
+### Allow users to guess which movie has a higher rating.
+![Alt text](assets/ReadMe.images/display-movies.png)
+
+### Track score and rounds played.
+![Alt text](assets/ReadMe.images/round-counter.png)
+
+### Show a "Next Round" button after each guess.
+![Alt text](assets/ReadMe.images/next-round.png)
+
+### Display the final score and title based on the user's performance.
+![Alt text](assets/ReadMe.images/score-and-titel.png)
+
+### Titles: 
   - Cinephile (10/10)
   - Movie Buff (7-9/10)
   - Movie Fan (5-6/10)
   - Normie (0-4/10)
-- Responsive design for various screen sizes.
+
+### Responsive design for various screen sizes.
 
 ## Technologies Used
 
