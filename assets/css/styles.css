@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 header, footer {
@@ -18,7 +18,7 @@ header, footer {
 
 header h1, footer p {
     margin: 0;
-    font-size: 18px; 
+    font-size: 18px; /* Ensure legible font size */
 }
 
 .container {
@@ -28,7 +28,7 @@ header h1, footer p {
 
 #instructions {
     margin: 20px 0;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 #game-area {
@@ -40,6 +40,7 @@ header h1, footer p {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .movie-card {
@@ -56,6 +57,7 @@ header h1, footer p {
     align-items: center;
     justify-content: center;
     border: 2px solid black;
+    margin: 10px; /* Add margin for better spacing */
 }
 
 .red-card {
@@ -91,7 +93,7 @@ button {
     font-weight: bold;
     border: 2px solid black;
     cursor: pointer;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 button:hover {
@@ -100,7 +102,7 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 .button-container {
@@ -116,11 +118,79 @@ button:hover {
 #score-board {
     margin-top: auto;
     padding: 20px;
-    font-size: 16px; 
+    font-size: 16px; /* Ensure legible font size */
 }
 
 footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header h1, footer p {
+        font-size: 16px;
+    }
+
+    .movie-card {
+        width: 150px;
+        height: 225px;
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #instructions {
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 14px;
+    }
+
+    #score-board {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+
+    header h1, footer p {
+        font-size: 14px;
+    }
+
+    .movie-card {
+        width: 120px;
+        height: 180px;
+        padding: 10px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    #instructions {
+        font-size: 12px;
+    }
+
+    #result {
+        font-size: 12px;
+    }
+
+    #score-board {
+        font-size: 12px;
+    }
 }
