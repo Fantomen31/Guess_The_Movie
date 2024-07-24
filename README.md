@@ -156,7 +156,13 @@ Same with score.js file, it’s part of an onlick. If I had the time I'd change 
 - Add known issues to TESTING.
 
 
+## CREDITS
 
+### Harry (Mentor)
+- Harry helped me better strucutre my code with comments and helped me edit some final details that made the whole project come together a bit better.
+
+### Media
+- All media for movie images was taken from IMDB pages and google search.
 
 
 
